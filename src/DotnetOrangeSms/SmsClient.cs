@@ -1,5 +1,4 @@
-﻿using DotnetOrangeSms.Models.Errors;
-using DotnetOrangeSms.Models.Responses;
+﻿using DotnetOrangeSms.Models.Responses;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -71,7 +70,11 @@ namespace DotnetOrangeSms
             }
         }
 
-
+        public async Task<(HttpStatusCode code, string result)> GetAsync(string uri)
+        {
+            var result = await HttpClient.GetAsync(uri);
+            return (result.StatusCode, await result.Content.ReadAsStringAsync());
+        }
 
     }
 }
