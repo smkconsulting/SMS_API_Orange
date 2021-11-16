@@ -75,7 +75,7 @@ namespace ConsoleTest
 
         private static void PrintSeparator()
         {
-            Console.WriteLine("/n********************************************************************************************/n");
+            Console.WriteLine($"{Environment.NewLine}********************************************************************************************{Environment.NewLine}");
         }
 
     }

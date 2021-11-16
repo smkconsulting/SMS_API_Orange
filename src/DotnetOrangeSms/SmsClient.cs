@@ -30,7 +30,7 @@ namespace DotnetOrangeSms
                 new KeyValuePair<string, string>("grant_type", "client_credentials")
             };
 
-            var result = await httpClient.PostAsync("oauth/v2/token", new FormUrlEncodedContent(pairs));
+            var result = await httpClient.PostAsync("oauth/v3/token", new FormUrlEncodedContent(pairs));
 
             if(result.IsSuccessStatusCode)
             {
