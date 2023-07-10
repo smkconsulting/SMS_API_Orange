@@ -7,15 +7,16 @@ namespace DotnetOrangeSms.Extensions
 {
     public static class SmsExtensions
     {
-        public static async Task<Result<string>> SendSms(this SmsClient smsClient, string message, string from, string to,string senderName = "")
+        public static async Task<Result<string>> SendSms(this SmsClient smsClient, string message, string from, string to,string senderName)
         {
             var sms = new SendSmsModel
             {
-                SenderName = senderName,
+               // SenderName = senderName,
                 SmsMessageRequest = new SmsMessageRequest
                 {
                     Sender = $"tel:+{from}",
                     Recipient = $"tel:+{to}",
+                    SenderName = senderName,
                     SmsTextMessage = new SmsTextMessage
                     {
                         Message = message

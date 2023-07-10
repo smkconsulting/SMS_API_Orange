@@ -11,6 +11,8 @@ namespace DotnetOrangeSms.Models
         public string Recipient { get; set; }
         [JsonProperty("senderAddress")]
         public string Sender { get; set; }
+        [JsonProperty("senderName")]
+        public string SenderName { get; set; }
         [JsonProperty("outboundSMSTextMessage")]
         public SmsTextMessage SmsTextMessage { get; set; }
     }

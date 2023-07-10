@@ -66,7 +66,7 @@ namespace ConsoleTest
 
         private static async Task SendingSms(SmsClient smsClient)
         {
-            var response = await smsClient.SendSms("Test", "243808790260", "243998954037", "Mandal");
+            var response = await smsClient.SendSms("Test C# pour MAUI", "2250000", "2250709768110", "RESAFIG");
             if (response.IsSuccess)
                 Console.WriteLine($"Sms sent: {response.Value}");
             else

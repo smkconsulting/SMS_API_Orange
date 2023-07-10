@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29905.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetOrangeSms", "DotnetOrangeSms.csproj", "{E8505BE2-E8F5-45DE-8BB8-73B487A705A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetOrangeSms", "DotnetOrangeSms.csproj", "{E8505BE2-E8F5-45DE-8BB8-73B487A705A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "..\ConsoleTest\ConsoleTest.csproj", "{FEB9F5A2-8900-4DBA-A5CE-8C18FD537509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTest", "..\ConsoleTest\ConsoleTest.csproj", "{FEB9F5A2-8900-4DBA-A5CE-8C18FD537509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSMS", "..\ConsoleSMS\ConsoleSMS.csproj", "{FE0D82E7-43E8-4A6B-AD51-B7CABE09614D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FEB9F5A2-8900-4DBA-A5CE-8C18FD537509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB9F5A2-8900-4DBA-A5CE-8C18FD537509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB9F5A2-8900-4DBA-A5CE-8C18FD537509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0D82E7-43E8-4A6B-AD51-B7CABE09614D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0D82E7-43E8-4A6B-AD51-B7CABE09614D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0D82E7-43E8-4A6B-AD51-B7CABE09614D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0D82E7-43E8-4A6B-AD51-B7CABE09614D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
